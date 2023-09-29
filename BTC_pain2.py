@@ -21,7 +21,7 @@ import numpy
 threshold = int(input("What is you threshold today?"))
 #function to retreieve the BTC price, store it as variable 
 
-alert = vlc.MediaPlayer(r"C:\Users\numap\Documents\Labo secu\Dev\BTC_suffer\You Suffer (Napalm Death).mp3")
+alert = vlc.MediaPlayer(r"[PATHTOYOUR MP3 ALERT]")
 State = []
 
 def Get_BTC_price():
@@ -88,17 +88,6 @@ if __name__ == '__main__':
 #while eur_value < threshold:
 
 
-
-#How to go back in the while loop after meeting condition?
-
-#invoke the VLC player and play the song
-#importing the VLC library
-#find the mp3 file in local relative path
-
-#close VLC player
-
-
-#To do features: 
 # maintain the script runing in the background using CRONJOBS. 
 # Upon start, ask the user for the threshold price
 # Print the BTC at set time interval
